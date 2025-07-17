@@ -1,0 +1,30 @@
+{
+  "name": "dmssg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'No build required'",
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crons": "^1.1.1-alpha.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.16",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
